@@ -663,6 +663,10 @@ article {
 	font-weight: 700;
 }
 
+.contact-box a {
+	text-decoration: none;
+}
+
 @media all and (max-width: 414px) {
 	.social-icons-mobile {
 		display: flex;
