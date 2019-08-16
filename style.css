@@ -40,7 +40,7 @@ section {
 hr {
 	height: 15px;
 	margin: 15px 0 15px 0;
-	background-color: pink;
+	background-color: #f4bfca;
 	border: none;
 }
 
@@ -63,7 +63,7 @@ h3 {
 /****** HEADER ******/
 
 header {
-	background-color: lightpink;
+	background-color: #f3b5c1;
 	height: 100%;
 }
 
@@ -347,7 +347,7 @@ ul {
 		transform: none;
 		-webkit-animation: 5s ease 0s normal forwards 1 fadein;
 		animation: 5s ease 0s normal forwards 1 fadein;
-		background: lightpink;
+		background: #f3b5c1;
 		z-index: 100;
 	}
 	.nav-item {
@@ -393,7 +393,7 @@ ul {
 .portfolio-h2:before,
 .contact-h2:before {
 	font-size: 10rem;
-	color: pink;
+	color: #f4bfca;
 	position: absolute;
 	top: -115px;
 	left: 0px;
@@ -542,13 +542,7 @@ article {
 	max-width: 48%;
 }
 
-@media all and (max-width: 768px) {
-	article {
-		max-width: 47%;
-	}
-}
-
-@media all and (max-width: 414px) {
+@media all and (max-width: 800px) {
 	article {
 		max-width: 100%;
 	}
@@ -648,7 +642,7 @@ article {
 }
 
 .contact-box {
-	border: solid 5px pink;
+	border: solid 5px #f4bfca;
 	border-radius: 2px;
 	width: fit-content;
 	margin: 20px;
@@ -707,12 +701,12 @@ article {
 
 footer {
 	padding: 5px;
-	background-color: #747474;
+	background-color: #f3b5c1;
 }
 footer p {
 	margin: 2px;
 	text-align: center;
-	color: white;
+	color: #000;
 	font-size: 1rem;
 	text-transform: lowercase;
 }
