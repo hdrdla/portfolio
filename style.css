@@ -60,6 +60,14 @@ h3 {
 	font-size: 6px;
 }
 
+.top-padding {
+	margin-top: 2rem;
+}
+
+ul {
+	margin-top: 0.5rem;
+}
+
 /****** HEADER ******/
 
 header {
@@ -209,6 +217,12 @@ path {
 	height: 1px;
 	margin: -1px;
 	overflow: hidden;
+}
+
+.nostyle {
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
 }
 
 @-webkit-keyframes arrow {
@@ -383,7 +397,8 @@ ul {
 .about-h2,
 .skills-h2,
 .portfolio-h2,
-.contact-h2 {
+.contact-h2,
+.proposal-h2 {
 	position: relative;
 	margin: 60px 0 10px 0;
 }
@@ -391,7 +406,8 @@ ul {
 .about-h2:before,
 .skills-h2:before,
 .portfolio-h2:before,
-.contact-h2:before {
+.contact-h2:before,
+.proposal-h2:before {
 	font-size: 10rem;
 	color: #f4bfca;
 	position: absolute;
@@ -419,6 +435,10 @@ ul {
 
 .contact-h2:before {
 	content: "let's talk";
+}
+
+.proposal-h2:before {
+	content: "proposal";
 }
 
 .em {
@@ -490,13 +510,15 @@ ul {
 	.about-h2::before,
 	.skills-h2::before,
 	.portfolio-h2::before,
-	.contact-h2::before {
+	.contact-h2::before,
+	.proposal-h2::before {
 		font-size: 8rem;
 	}
 	.about-h2::before,
 	.skills-h2::before,
 	.contact-h2::before,
-	.portfolio-h2::before {
+	.portfolio-h2::before,
+	.proposal-h2::before {
 		top: -90px;
 	}
 }
@@ -504,13 +526,15 @@ ul {
 	.about-h2::before,
 	.skills-h2::before,
 	.portfolio-h2::before,
-	.contact-h2::before {
+	.contact-h2::before,
+	.proposal-h2::before {
 		font-size: 5rem;
 	}
 	.about-h2::before,
 	.skills-h2::before,
 	.contact-h2::before,
-	.portfolio-h2::before {
+	.portfolio-h2::before,
+	.proposal-h2::before {
 		top: -45px;
 	}
 }
@@ -519,13 +543,15 @@ ul {
 	.about-h2::before,
 	.skills-h2::before,
 	.portfolio-h2::before,
-	.contact-h2::before {
+	.contact-h2::before,
+	.proposal-h2::before {
 		font-size: 4rem;
 	}
 	.about-h2::before,
 	.skills-h2::before,
 	.contact-h2::before,
-	.portfolio-h2::before {
+	.portfolio-h2::before,
+	.proposal-h2::before {
 		top: -35px;
 	}
 }
